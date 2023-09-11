@@ -1,64 +1,25 @@
-*{
-  padding:0;
-  margin:0;
+body {
+  background-color:#9a031fe8;
 }
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 500px;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color:#fb8b24;
 
-.name{
-  background-color:#9a031e;
-  padding:1rem; 
-}
-
-.sam{
-  background-color: #9a031f;
-  padding: 30px;
   
 }
-
-.san{
-  color:#fb8b24;
-  font-size:2.5em;
-}
-
-
-.container{
-  background-color:#e36414;
-  height:50rem;
-}
-
-.image{
-  display:flex;
-  justify-content:center;
-  width:20rem;
-  border-radius: 100px;
-  margin:1.5rem;
-  padding-top: 0.5rem;
-  padding-left: 60rem;
-}
-
-.proj{
-  background-color:#9a031f;
-  padding: 50px;
-
-}
-
-
-.front{
-  color:#e36414;
-  font-size:2.5rem;
-}
-
-.mon{
-  color:rgba(255, 255, 255, 0.877);
-}
-
-.button{
-  background-color:#fb8c247a;
-  font-size:1rem;
-  border-radius:7px;
-}
-
-.git{
-  color:#f7f2f3a1;
-  padding:5px;
-
+img {
+  width: 300px;
+  height: 350px;
+  border-radius: 50px;
 } 
+
+button{
+  background-color:#9dca20;
+}
+
